@@ -1,0 +1,54 @@
+Library data loaded.
+
+==============================================
+          LIBRARY MANAGEMENT SYSTEM
+==============================================
+1. Add book
+2. View books
+3. Search book by title or author
+4. Update book information
+5. Delete book
+6. Issue book
+7. Return book
+8. Save data to file
+9. Load data from file
+0. Exit
+==============================================
+Choose an option: 1
+
+--- Add Book ---
+Book ID: 501
+Title: The Pragmatic Programmer
+Author: Andrew Hunt
+Publication year (0 if unknown): 1999
+Book added successfully.
+
+Choose an option: 3
+Enter a title or author keyword: hunt
+
+--- Search Results ---
+ID      Title                         Author                   Year    Status
+------------------------------------------------------------------------------------
+501     The Pragmatic Programmer     Andrew Hunt              1999    Available
+
+Choose an option: 6
+
+--- Issue Book ---
+Book ID: 501
+Book issued successfully.
+
+Choose an option: 2
+
+--- Library Books ---
+ID      Title                         Author                   Year    Status
+------------------------------------------------------------------------------------
+501     The Pragmatic Programmer     Andrew Hunt              1999    Issued
+
+Choose an option: 7
+
+--- Return Book ---
+Book ID: 501
+Book returned successfully.
+
+Choose an option: 0
+Library data saved. Goodbye!
